@@ -383,8 +383,10 @@ Made by Icelab and Jim Whimpey
           <PostNotesURL>{PostNotesURL}</PostNotesURL>
         </block:Caption>
         {/block:Caption}
-        {block:Photos}
-          <block:Photos>
+        <block:Photos>
+          {block:Photos}
+            <item>
+            <PhotoCount>{PhotoCount}</PhotoCount>
             <PhotoAlt>{PhotoAlt}</PhotoAlt>
             {block:Caption}
             <block:Caption>
@@ -406,6 +408,7 @@ Made by Icelab and Jim Whimpey
             <PhotoURL-250>{PhotoURL-250}</PhotoURL-250>
             <PhotoURL-100>{PhotoURL-100}</PhotoURL-100>
             <PhotoURL-75sq>{PhotoURL-75sq}</PhotoURL-75sq>
+            <PhotoURL-HighRes>{PhotoURL-HighRes}</PhotoURL-HighRes>
             {block:HighRes}
             <block:HighRes>
               <PhotoURL-HighRes>{PhotoURL-HighRes}</PhotoURL-HighRes>
@@ -444,8 +447,9 @@ Made by Icelab and Jim Whimpey
             <Beats>{Beats}</Beats>
             <Timestamp>{Timestamp}</Timestamp>
             <TimeAgo>{TimeAgo}</TimeAgo>
-          </block:Photos>
-        {/block:Photos}
+            </item>
+          {/block:Photos}
+        </block:Photos>
         <Photoset-500>{Photoset-500}</Photoset-500>
         <Photoset-400>{Photoset-400}</Photoset-400>
         <Photoset-250>{Photoset-250}</Photoset-250>
