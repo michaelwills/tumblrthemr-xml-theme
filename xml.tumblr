@@ -383,6 +383,69 @@ Made by Icelab and Jim Whimpey
           <PostNotesURL>{PostNotesURL}</PostNotesURL>
         </block:Caption>
         {/block:Caption}
+        {block:Photos}
+          <block:Photos>
+            <PhotoAlt>{PhotoAlt}</PhotoAlt>
+            {block:Caption}
+            <block:Caption>
+              <Caption><![CDATA[{Caption}]]></Caption>
+              <!-- Common -->
+              <PostType>{PostType}</PostType>
+              <Permalink>{Permalink}</Permalink>
+              <ShortURL>{ShortURL}</ShortURL>
+              <PostID>{PostID}</PostID>
+              <TagsAsClasses>{TagsAsClasses}</TagsAsClasses>
+              <PostNotesURL>{PostNotesURL}</PostNotesURL>
+            </block:Caption>
+            {/block:Caption}
+            <LinkURL>{LinkURL}</LinkURL>
+            <LinkOpenTag><![CDATA[{LinkOpenTag}]]></LinkOpenTag>
+            <LinkCloseTag><![CDATA[{LinkCloseTag}]]></LinkCloseTag>
+            <PhotoURL-500>{PhotoURL-500}</PhotoURL-500>
+            <PhotoURL-400>{PhotoURL-400}</PhotoURL-400>
+            <PhotoURL-250>{PhotoURL-250}</PhotoURL-250>
+            <PhotoURL-100>{PhotoURL-100}</PhotoURL-100>
+            <PhotoURL-75sq>{PhotoURL-75sq}</PhotoURL-75sq>
+            {block:HighRes}
+            <block:HighRes>
+              <PhotoURL-HighRes>{PhotoURL-HighRes}</PhotoURL-HighRes>
+            </block:HighRes>
+            {/block:HighRes}
+            <!-- Common -->
+            <PostType>{PostType}</PostType>
+            <Permalink>{Permalink}</Permalink>
+            <ShortURL>{ShortURL}</ShortURL>
+            <PostID>{PostID}</PostID>
+            <TagsAsClasses>{TagsAsClasses}</TagsAsClasses>
+            <PostNotesURL>{PostNotesURL}</PostNotesURL>
+            <!-- Dates and Times -->
+            <DayOfMonth>{DayOfMonth}</DayOfMonth>
+            <DayOfMonthWithZero>{DayOfMonthWithZero}</DayOfMonthWithZero>
+            <DayOfWeek>{DayOfWeek}</DayOfWeek>
+            <ShortDayOfWeek>{ShortDayOfWeek}</ShortDayOfWeek>
+            <DayOfWeekNumber>{DayOfWeekNumber}</DayOfWeekNumber>
+            <DayOfMonthSuffix>{DayOfMonthSuffix}</DayOfMonthSuffix>
+            <DayOfYear>{DayOfYear}</DayOfYear>
+            <WeekOfYear>{WeekOfYear}</WeekOfYear>
+            <Month>{Month}</Month>
+            <ShortMonth>{ShortMonth}</ShortMonth>
+            <MonthNumber>{MonthNumber}</MonthNumber>
+            <MonthNumberWithZero>{MonthNumberWithZero}</MonthNumberWithZero>
+            <Year>{Year}</Year>
+            <ShortYear>{ShortYear}</ShortYear>
+            <AmPm>{AmPm}</AmPm>
+            <CapitalAmPm>{CapitalAmPm}</CapitalAmPm>
+            <themr12Hour>{12Hour}</themr12Hour>
+            <themr24Hour>{24Hour}</themr24Hour>
+            <themr12HourWithZero>{12HourWithZero}</themr12HourWithZero>
+            <themr24HourWithZero>{24HourWithZero}</themr24HourWithZero>
+            <Minutes>{Minutes}</Minutes>
+            <Seconds>{Seconds}</Seconds>
+            <Beats>{Beats}</Beats>
+            <Timestamp>{Timestamp}</Timestamp>
+            <TimeAgo>{TimeAgo}</TimeAgo>
+          </block:Photos>
+        {/block:Photos}
         <Photoset-500>{Photoset-500}</Photoset-500>
         <Photoset-400>{Photoset-400}</Photoset-400>
         <Photoset-250>{Photoset-250}</Photoset-250>
