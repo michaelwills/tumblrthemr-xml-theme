@@ -892,6 +892,11 @@ Made by Icelab and Jim Whimpey
     <PostID>{PostID}</PostID>
     <TagsAsClasses>{TagsAsClasses}</TagsAsClasses>
     <PostNotesURL>{PostNotesURL}</PostNotesURL>
+    {block:NotReblog}
+    <block:NotReblog>
+        <exists>true</exists><!-- to ensure it has content -->
+    </block:NotReblog>
+    {/block:NotReblog}
     {block:RebloggedFrom}
     <!-- Reblogs -->
     <block:RebloggedFrom>
